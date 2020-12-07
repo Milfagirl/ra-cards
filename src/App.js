@@ -12,13 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      <Card className="card" card = {card}>
+      <Card className="card" card={card}>
         <img src={card.img} className="card-img-top" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">{card.header}</h5>
-          <p className="card-text">{card.text}</p>
-          <button href="#" className="btn btn-primary">{card.btnText}</button>
-        </div>
       </Card>
     </div>
   );
